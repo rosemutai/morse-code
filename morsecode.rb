@@ -23,5 +23,10 @@ def decode_word(word_str)
 end
 
 def decode_entire_message(message)
-  # Add code here 
+  sentence = ''
+    words_arr = message.split(/   /)
+    words_arr.each do |char|
+        sentence += decode_word(char) + ' '
+    end
+    sentence
 end
