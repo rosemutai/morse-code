@@ -7,6 +7,7 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
@@ -64,12 +65,14 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+
 - Visual Studio Code.
 - Ruby
 - Git bash.
 - GitHub Account.
 
 ### Setup
+
 Install Ruby
 Go to github and find the repository morse-code
 Click on code and copy then go to your gitbash cli on your computer Clone this repository to your desired folder
@@ -87,9 +90,12 @@ Example commands:
 
 To run the project, execute the queries in the files
 ruby morsecode.rb
+
 ### Deployment
+
 You can deploy this project using:
 GitHub Pages
+
 <!--
 Example:
 
@@ -107,9 +113,14 @@ Example:
 👤 **ROSE MUTAI**
 
 - GitHub: [@rosemutai](https://github.com/rosemutai)
-- Twitter: [@__chepngetich](https://twitter.com/__chepngetich)
+- Twitter: [@\_\_chepngetich](https://twitter.com/__chepngetich)
 - LinkedIn: [@rosemutai](https://linkedin.com/in/rosemutai)
 
+👤 **Fatihah Oduwole**
+
+- GitHub: [@rosemutai](https://github.com/jeddaa)
+- Twitter: [@\_\_chepngetich](https://twitter.com/_jeddaah)
+- LinkedIn: [@rosemutai](https://linkedin.com/in/fatihahoduwole)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
