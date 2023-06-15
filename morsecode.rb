@@ -1,5 +1,4 @@
 def decode_str(str)
-
   morse_characters = {
     '.-' => 'A', '-...' => 'B', '-.-.' => 'C', '-..' => 'D', '.' => 'E',
     '..-.' => 'F', '--.' => 'G', '....' => 'H', '..' => 'I', '.---' => 'J',
@@ -25,8 +24,6 @@ end
 def decode_entire_message(message)
   sentence = ''
   words_arr = message.split(/   /)
-  words_arr.each do |char|
-    sentence += decode_word(char) + ' '
-  end
+  words_arr.each { |char| sentence += "#{decode_word(char)} "}
   sentence
 end
