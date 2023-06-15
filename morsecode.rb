@@ -1,6 +1,6 @@
 def decode_str(str)
 
-  morse_Characters = {
+  morse_characters = {
     '.-' => 'A', '-...' => 'B', '-.-.' => 'C', '-..' => 'D', '.' => 'E',
     '..-.' => 'F', '--.' => 'G', '....' => 'H', '..' => 'I', '.---' => 'J',
     '-.-' => 'K', '.-..' => 'L', '--' => 'M', '-.' => 'N', '---' => 'O',
@@ -10,7 +10,7 @@ def decode_str(str)
     '.....' => '5', '-....' => '6', '--...' => '7', '---..' => '8',
     '----.' => '9', '-----' => '0', ' ' => ' '
   }
-  morse_Characters[str]
+  morse_characters[str]
 end
 
 def decode_word(word_str)
@@ -24,9 +24,9 @@ end
 
 def decode_entire_message(message)
   sentence = ''
-    words_arr = message.split(/   /)
-    words_arr.each do |char|
-        sentence += decode_word(char) + ' '
-    end
-    sentence
+  words_arr = message.split(/   /)
+  words_arr.each do |char|
+    sentence += decode_word(char) + ' '
+  end
+  sentence
 end
