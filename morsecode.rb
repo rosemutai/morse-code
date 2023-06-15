@@ -24,6 +24,6 @@ end
 def decode_entire_message(message)
   sentence = ''
   words_arr = message.split(/   /)
-  words_arr.each { |char| sentence += "#{decode_word(char)} "}
+  words_arr.each { |char| sentence += "#{decode_word(char)} " }
   sentence
 end
